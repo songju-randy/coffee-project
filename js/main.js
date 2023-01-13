@@ -104,37 +104,6 @@ function findCoffee(e){
 }
 
 
-// function toUpper(e){
-//     e.preventDefault();
-//     let coffeeArray = coffeeInput.split(" ");
-//     let coffeeInput = coffeeAdd.value;
-//     let coffeeString = '';
-//     for(var i=0; i<coffeeArray.length; i++){
-//         coffeeString += coffeeArray[i][0].toUpperCase() + coffeeArray[i].slice(1) + " ";
-//     }
-//     return coffeeString;
-// }
-
-
-
-
-
-// //---Function that Creates new Coffees---//
-// function createCoffees(e){
-//     e.preventDefault();
-//     let coffeeInput = coffeeAdd.value;
-//     let selectedRoast = selectionAdd.value;
-
-
-//     coffees.push({
-//         id: coffees.length+1,
-//         name: coffeeInput,
-//         roast: selectedRoast
-//     });
-
-//     tbody.innerHTML = renderCoffees(coffees);
-// }
-
 function createCoffees(e){
     e.preventDefault();
     let coffeeInput = coffeeAdd.value;
