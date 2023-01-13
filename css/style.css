@@ -149,10 +149,6 @@ table {
     flex-wrap: wrap;
     width:100%;
 }
-container-fluid{
-    padding:0;
-    margin: 0;
-}
 
 
 .shadow-container{
@@ -204,4 +200,9 @@ container-fluid{
     flex-direction: column;
     align-items: center;
     justify-self: center;
+}
+#submit,
+#submit-new-coffee{
+    color: white;
+    background-color: #87683E;
 }
